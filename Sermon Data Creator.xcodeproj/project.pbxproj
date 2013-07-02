@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4826A34A1782EEC5003E7311 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4826A3491782EEC5003E7311 /* Cocoa.framework */; };
+		4826A3541782EEC6003E7311 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4826A3521782EEC6003E7311 /* InfoPlist.strings */; };
+		4826A3561782EEC6003E7311 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4826A3551782EEC6003E7311 /* main.m */; };
+		4826A35A1782EEC6003E7311 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4826A3581782EEC6003E7311 /* Credits.rtf */; };
+		4826A35D1782EEC6003E7311 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4826A35C1782EEC6003E7311 /* AppDelegate.m */; };
+		4826A3601782EEC6003E7311 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4826A35E1782EEC6003E7311 /* MainMenu.xib */; };
+		4826A3681782EEC6003E7311 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4826A3671782EEC6003E7311 /* SenTestingKit.framework */; };
+		4826A3691782EEC6003E7311 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4826A3491782EEC5003E7311 /* Cocoa.framework */; };
+		4826A3711782EEC6003E7311 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4826A36F1782EEC6003E7311 /* InfoPlist.strings */; };
+		4826A3741782EEC6003E7311 /* Sermon_Data_CreatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4826A3731782EEC6003E7311 /* Sermon_Data_CreatorTests.m */; };
+		4826A3811782F1A3003E7311 /* SermonDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4826A37E1782F1A3003E7311 /* SermonDataModel.m */; };
+		4826A3821782F1A3003E7311 /* SermonDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4826A37F1782F1A3003E7311 /* SermonDataModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4826A36A1782EEC6003E7311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4826A33E1782EEC5003E7311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4826A3451782EEC5003E7311;
+			remoteInfo = "Sermon Data Creator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4826A3461782EEC5003E7311 /* Sermon Data Creator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sermon Data Creator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4826A3491782EEC5003E7311 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4826A34C1782EEC5003E7311 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4826A34D1782EEC5003E7311 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4826A34E1782EEC5003E7311 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4826A3511782EEC6003E7311 /* Sermon Data Creator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sermon Data Creator-Info.plist"; sourceTree = "<group>"; };
+		4826A3531782EEC6003E7311 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4826A3551782EEC6003E7311 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4826A3571782EEC6003E7311 /* Sermon Data Creator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sermon Data Creator-Prefix.pch"; sourceTree = "<group>"; };
+		4826A3591782EEC6003E7311 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4826A35B1782EEC6003E7311 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4826A35C1782EEC6003E7311 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4826A35F1782EEC6003E7311 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4826A3661782EEC6003E7311 /* Sermon Data CreatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sermon Data CreatorTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4826A3671782EEC6003E7311 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4826A36E1782EEC6003E7311 /* Sermon Data CreatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sermon Data CreatorTests-Info.plist"; sourceTree = "<group>"; };
+		4826A3701782EEC6003E7311 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4826A3721782EEC6003E7311 /* Sermon_Data_CreatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sermon_Data_CreatorTests.h; sourceTree = "<group>"; };
+		4826A3731782EEC6003E7311 /* Sermon_Data_CreatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sermon_Data_CreatorTests.m; sourceTree = "<group>"; };
+		4826A37D1782F1A3003E7311 /* SermonDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SermonDataModel.h; path = ../../TLCCiPhoneApp/TLCCSermons/SermonDataModel.h; sourceTree = "<group>"; };
+		4826A37E1782F1A3003E7311 /* SermonDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SermonDataModel.m; path = ../../TLCCiPhoneApp/TLCCSermons/SermonDataModel.m; sourceTree = "<group>"; };
+		4826A3801782F1A3003E7311 /* SermonDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SermonDataModel.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4826A3431782EEC5003E7311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4826A34A1782EEC5003E7311 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4826A3621782EEC6003E7311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4826A3681782EEC6003E7311 /* SenTestingKit.framework in Frameworks */,
+				4826A3691782EEC6003E7311 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4826A33D1782EEC5003E7311 = {
+			isa = PBXGroup;
+			children = (
+				4826A34F1782EEC5003E7311 /* Sermon Data Creator */,
+				4826A36C1782EEC6003E7311 /* Sermon Data CreatorTests */,
+				4826A3481782EEC5003E7311 /* Frameworks */,
+				4826A3471782EEC5003E7311 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4826A3471782EEC5003E7311 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4826A3461782EEC5003E7311 /* Sermon Data Creator.app */,
+				4826A3661782EEC6003E7311 /* Sermon Data CreatorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4826A3481782EEC5003E7311 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4826A3491782EEC5003E7311 /* Cocoa.framework */,
+				4826A3671782EEC6003E7311 /* SenTestingKit.framework */,
+				4826A34B1782EEC5003E7311 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4826A34B1782EEC5003E7311 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4826A34C1782EEC5003E7311 /* AppKit.framework */,
+				4826A34D1782EEC5003E7311 /* CoreData.framework */,
+				4826A34E1782EEC5003E7311 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4826A34F1782EEC5003E7311 /* Sermon Data Creator */ = {
+			isa = PBXGroup;
+			children = (
+				4826A35B1782EEC6003E7311 /* AppDelegate.h */,
+				4826A35C1782EEC6003E7311 /* AppDelegate.m */,
+				4826A35E1782EEC6003E7311 /* MainMenu.xib */,
+				4826A37D1782F1A3003E7311 /* SermonDataModel.h */,
+				4826A37E1782F1A3003E7311 /* SermonDataModel.m */,
+				4826A37F1782F1A3003E7311 /* SermonDataModel.xcdatamodeld */,
+				4826A3501782EEC5003E7311 /* Supporting Files */,
+			);
+			path = "Sermon Data Creator";
+			sourceTree = "<group>";
+		};
+		4826A3501782EEC5003E7311 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4826A3511782EEC6003E7311 /* Sermon Data Creator-Info.plist */,
+				4826A3521782EEC6003E7311 /* InfoPlist.strings */,
+				4826A3551782EEC6003E7311 /* main.m */,
+				4826A3571782EEC6003E7311 /* Sermon Data Creator-Prefix.pch */,
+				4826A3581782EEC6003E7311 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4826A36C1782EEC6003E7311 /* Sermon Data CreatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4826A3721782EEC6003E7311 /* Sermon_Data_CreatorTests.h */,
+				4826A3731782EEC6003E7311 /* Sermon_Data_CreatorTests.m */,
+				4826A36D1782EEC6003E7311 /* Supporting Files */,
+			);
+			path = "Sermon Data CreatorTests";
+			sourceTree = "<group>";
+		};
+		4826A36D1782EEC6003E7311 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4826A36E1782EEC6003E7311 /* Sermon Data CreatorTests-Info.plist */,
+				4826A36F1782EEC6003E7311 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4826A3451782EEC5003E7311 /* Sermon Data Creator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4826A3771782EEC6003E7311 /* Build configuration list for PBXNativeTarget "Sermon Data Creator" */;
+			buildPhases = (
+				4826A3421782EEC5003E7311 /* Sources */,
+				4826A3431782EEC5003E7311 /* Frameworks */,
+				4826A3441782EEC5003E7311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sermon Data Creator";
+			productName = "Sermon Data Creator";
+			productReference = 4826A3461782EEC5003E7311 /* Sermon Data Creator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4826A3651782EEC6003E7311 /* Sermon Data CreatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4826A37A1782EEC6003E7311 /* Build configuration list for PBXNativeTarget "Sermon Data CreatorTests" */;
+			buildPhases = (
+				4826A3611782EEC6003E7311 /* Sources */,
+				4826A3621782EEC6003E7311 /* Frameworks */,
+				4826A3631782EEC6003E7311 /* Resources */,
+				4826A3641782EEC6003E7311 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4826A36B1782EEC6003E7311 /* PBXTargetDependency */,
+			);
+			name = "Sermon Data CreatorTests";
+			productName = "Sermon Data CreatorTests";
+			productReference = 4826A3661782EEC6003E7311 /* Sermon Data CreatorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4826A33E1782EEC5003E7311 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = TLCC;
+			};
+			buildConfigurationList = 4826A3411782EEC5003E7311 /* Build configuration list for PBXProject "Sermon Data Creator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4826A33D1782EEC5003E7311;
+			productRefGroup = 4826A3471782EEC5003E7311 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4826A3451782EEC5003E7311 /* Sermon Data Creator */,
+				4826A3651782EEC6003E7311 /* Sermon Data CreatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4826A3441782EEC5003E7311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4826A3541782EEC6003E7311 /* InfoPlist.strings in Resources */,
+				4826A35A1782EEC6003E7311 /* Credits.rtf in Resources */,
+				4826A3601782EEC6003E7311 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4826A3631782EEC6003E7311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4826A3711782EEC6003E7311 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4826A3641782EEC6003E7311 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4826A3421782EEC5003E7311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4826A3561782EEC6003E7311 /* main.m in Sources */,
+				4826A35D1782EEC6003E7311 /* AppDelegate.m in Sources */,
+				4826A3811782F1A3003E7311 /* SermonDataModel.m in Sources */,
+				4826A3821782F1A3003E7311 /* SermonDataModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4826A3611782EEC6003E7311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4826A3741782EEC6003E7311 /* Sermon_Data_CreatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4826A36B1782EEC6003E7311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4826A3451782EEC5003E7311 /* Sermon Data Creator */;
+			targetProxy = 4826A36A1782EEC6003E7311 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4826A3521782EEC6003E7311 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4826A3531782EEC6003E7311 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4826A3581782EEC6003E7311 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4826A3591782EEC6003E7311 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4826A35E1782EEC6003E7311 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4826A35F1782EEC6003E7311 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4826A36F1782EEC6003E7311 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4826A3701782EEC6003E7311 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4826A3751782EEC6003E7311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4826A3761782EEC6003E7311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4826A3781782EEC6003E7311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sermon Data Creator/Sermon Data Creator-Prefix.pch";
+				INFOPLIST_FILE = "Sermon Data Creator/Sermon Data Creator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4826A3791782EEC6003E7311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sermon Data Creator/Sermon Data Creator-Prefix.pch";
+				INFOPLIST_FILE = "Sermon Data Creator/Sermon Data Creator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4826A37B1782EEC6003E7311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sermon Data Creator.app/Contents/MacOS/Sermon Data Creator";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sermon Data Creator/Sermon Data Creator-Prefix.pch";
+				INFOPLIST_FILE = "Sermon Data CreatorTests/Sermon Data CreatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4826A37C1782EEC6003E7311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sermon Data Creator.app/Contents/MacOS/Sermon Data Creator";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sermon Data Creator/Sermon Data Creator-Prefix.pch";
+				INFOPLIST_FILE = "Sermon Data CreatorTests/Sermon Data CreatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4826A3411782EEC5003E7311 /* Build configuration list for PBXProject "Sermon Data Creator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4826A3751782EEC6003E7311 /* Debug */,
+				4826A3761782EEC6003E7311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4826A3771782EEC6003E7311 /* Build configuration list for PBXNativeTarget "Sermon Data Creator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4826A3781782EEC6003E7311 /* Debug */,
+				4826A3791782EEC6003E7311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4826A37A1782EEC6003E7311 /* Build configuration list for PBXNativeTarget "Sermon Data CreatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4826A37B1782EEC6003E7311 /* Debug */,
+				4826A37C1782EEC6003E7311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4826A37F1782F1A3003E7311 /* SermonDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4826A3801782F1A3003E7311 /* SermonDataModel.xcdatamodel */,
+			);
+			currentVersion = 4826A3801782F1A3003E7311 /* SermonDataModel.xcdatamodel */;
+			name = SermonDataModel.xcdatamodeld;
+			path = ../../TLCCiPhoneApp/TLCCSermons/SermonDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4826A33E1782EEC5003E7311 /* Project object */;
+}
